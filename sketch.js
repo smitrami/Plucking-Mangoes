@@ -56,7 +56,9 @@ function setup() {
 
 function draw() {
 	background(bg_img);
-
+	textSize(25);
+	fill("white");
+	text("PRESS SPACE TO GET A SECOND CHANCE TO PLAY.");
 	drawSprites();
 	ground.display();
 	tree.display();
